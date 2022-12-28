@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Aref+Ruqaa+Ink:wght@700&family=Bebas+Neue&family=Black+Ops+One&family=Caesar+Dressing&family=Charmonman:wght@700&family=Dancing+Script&family=Didact+Gothic&family=Lato:ital,wght@1,100&family=Lobster&family=Merriweather&family=Monoton&family=Montserrat:wght@100;200;500&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Satisfy&family=Spirax&family=Zen+Tokyo+Zoo&display=swap');
+
+
+
+.col2{
+    width: 800px; height: 643px;background-color: rgba(0, 0, 0, 0.637); border-radius: 20px; margin-top: 105px;
+    animation-name: col2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.col2:hover{
+    background-color: rgba(0, 0, 0, 0.832);
+}
+.quote{
+    width:1000px;
+    height:200px;
+    border: rgb(0, 0, 8) double 10px;
+    padding: 30px;
+    margin-top: 180px;
+    margin-left: 230px;
+    border-radius: 50px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 30px;
+    background-color: rgba(99, 99, 103, 0.408);
+}
+@keyframes col2{
+    0%   {background-color: rgba(200, 123, 123, 0.644);}
+  25%  {background-color: rgba(88, 232, 170, 0.61);}
+  50%  {background-color: rgba(141, 202, 212, 0.658);}
+  100% {background-color: rgba(231, 114, 221, 0.623);}
+}
+#h1{
+    text-align: center; color: white;font-family: 'Zen Tokyo Zoo', cursive; font-size: 90px; padding-top: 125px;
+}
+#h1:hover{
+    color: rgba(0, 0, 255, 0.47);
+}
+div.polaroid {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .fmain{
+    width: 1500px;
+    height: 1000px;
+    border: 2px solid  rgba(165, 42, 42, 0.408);
+    background-color: rgba(165, 42, 42, 0.408);
+    animation-name: fmain;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes fmain{
+    0%   {background-color: rgba(173, 29, 29, 0.644);}
+  25%  {background-color: rgba(88, 232, 170, 0.61);}
+  50%  {background-color: rgba(141, 202, 212, 0.658);}
+  100% {background-color: rgba(231, 114, 221, 0.623);}
+}
+.img:hover{
+color: blue;
+font-weight: 600;
+font-size: large;
+}

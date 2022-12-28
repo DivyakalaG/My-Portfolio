@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="s icon" href="./Images/girl.jpg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Black+Ops+One&family=Caesar+Dressing&family=Dancing+Script&family=Didact+Gothic&family=Lato:ital,wght@1,100&family=Lobster&family=Merriweather&family=Monoton&family=Montserrat:wght@100;200;500&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Black+Ops+One&family=Caesar+Dressing&family=Dancing+Script&family=Didact+Gothic&family=Lato:ital,wght@1,100&family=Lobster&family=Merriweather&family=Monoton&family=Montserrat:wght@100;200;500&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Satisfy&family=Spirax&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Black+Ops+One&family=Caesar+Dressing&family=Dancing+Script&family=Didact+Gothic&family=Lato:ital,wght@1,100&family=Lobster&family=Merriweather&family=Monoton&family=Montserrat:wght@100;200;500&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Satisfy&family=Spirax&family=Zen+Tokyo+Zoo&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Black+Ops+One&family=Caesar+Dressing&family=Charmonman:wght@700&family=Dancing+Script&family=Didact+Gothic&family=Lato:ital,wght@1,100&family=Lobster&family=Merriweather&family=Monoton&family=Montserrat:wght@100;200;500&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Satisfy&family=Spirax&family=Zen+Tokyo+Zoo&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top" style="background-color:rgb(73, 31, 116) ;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+                style="font-weight:900; font-family: 'Caesar Dressing', cursive; font-size: 30px;">Design
+                Architect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon" style="border:5px solid rgb(111, 10, 194) ;"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"
+                        style="font-weight:700; color:rgb(58, 71, 211) ;">Contents</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home"
+                                style="font-weight:400; color:rgb(58, 71, 211) ;">HOME</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link" href="#interest"
+                                style="font-weight:400; color:rgb(58, 71, 211) ;">INTEREST</a>
+                        </li>
+                        <li class="nav-item dropdown mt-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="font-weight:400; color:rgb(58, 71, 211);">
+                                PROJECTS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu mt-1" style="background-color:rgb(146, 130, 234) ;">
+                                <li><a class="dropdown-item" href="#Project"
+                                        style="font-weight:700 ;text-decoration: underline;">PROJECTS</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item mt-1" href="#">.NET Project</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Embeded Project</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">HTML Project</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p style="margin-top:20px ; color: rgb(69, 65, 155); font-style: italic;">Interested to know more?
+                    </p>
+                    <p>
+                        <button class="btn" style="background-color:rgb(61, 58, 162) ;margin-top:10px ;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample">
+                            Subscribe
+                        </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="card card-body" style="width: 300px;">
+                                <p style="color:rgb(185, 16, 44) ;"> Thanks for subscribing to this page. <br> Will get
+                                    you updated with new projects and works!</p>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home"></section>
+    <div class="container-fluid" style="height:1000px; background-image: url(./Images/bg1\ web.gif);">
+
+        <div class="row">
+            <div class="col1"
+                style="width: 600px; height: 643px;background-color: rgba(0, 0, 0, 0.344); border-radius: 20px; margin-left: 50px; margin-right: 10px; margin-top: 105px;">
+                <center><img src="./Images/hi.gif" alt=""
+                        style=" margin-top: 50px; border-radius: 120px ; padding-bottom:50px;"></center>
+            </div>
+            <div class="col2">
+                <a href="#My Works" s style="text-decoration:none ;">
+                    <h1 id="h1">
+                        DIVYAKALA</h1>
+                </a>
+                <h3 style="text-align: center;color: white; font-family:'Spirax', cursive;font-size: 30px;">"Budding
+                    Design Architect"</h3>
+                <p style="color:white ;font-family: 'Charmonman', cursive;font-size: 30px; padding:80px">Myself a junior
+                    Design Developer who has made the first leap into the world of developing. Join me in this journey
+                    to know more</p>
+            </div>
+
+            <div class="card text-center" style="margin-top:180px ;">
+                <div class="card-header" style="background-color: orange ;">
+                </div>
+                <div class="card-body" style="height: 300px ;">
+                    <h5 class="card-title mt-2 fs-1">Journey Towards Web Development</h5>
+                    <p class="card-text mt-4" style="font-size:25px ;"> Took a pioneer step into the world of
+                        Information Technology as a Product trainer Implementation. Got to learn about different
+                        technologies and finally had an eye catch moment with designing. I started exploring more in
+                        designing . Got to learn various styling and technologies. And finally it helped to me see a
+                        fully fledged developer in me.</p>
+                    <a href="#" class="btn btn-primary" style="margin-top:30px ;">Know More</a>
+                </div>
+                <div class="card-footer text-muted" style="background-color: orange ;">
+
+                </div>
+            </div>
+            <section id="interest">
+                <h1
+                    style="text-align:center ; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 60px; margin-top: 100px; color: blue;">
+                    Interest</h1>
+                <br>
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./Images/AI-image-1.jpg" class="d-block"
+                                style="width:1220px ; height:500px; margin-left:140px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-size:40px ; color:rgb(255, 255, 255); font-weight:900">Artificial
+                                    Intellegence</h5>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./Images/web dev.jpeg" class="d-block"
+                                style="width:1220px ; height:500px; margin-left:140px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-size:40px ; color:rgb(233, 239, 41); font-weight:900">Web Development
+                                </h5>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Images/blockchain.jpeg" class="d-block"
+                                style="width:1220px ; height:500px; margin-left:140px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-size:40px ; color:rgb(255, 255, 255); font-weight:900">Blockchain
+                                    Technology</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section id="Project">
+                <h1
+                    style="text-align:center ; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 60px; margin-top: 100px; color: blue;">
+                    Project</h1>
+                <div class="accordion" id="accordionPanelsStayOpenExample" style="margin-top:80px ;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne"
+                                style="background-color: rgba(9, 164, 164, 0.705); color: white; font-size: 25px; font-weight: 600;"
+                                ;>
+                                .NET Project
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body" style="background-color: rgba(171, 240, 240, 0.305) ;">
+                                <strong>Student Mark Analysis System.</strong><br>The purpose of this document is to
+                                define therequirements of mark analysis system. Thissystem reduces manual work to great
+                                extent. Themark analysis is carried out by the system in anefficient manner.Student mark
+                                analyzing system has beendesigned to carry out the mark analysis processin an
+                                educational institution. The results ofrespective departments can be efficientlycomputed
+                                without much of manual involvement. <br> <strong>Scope</strong><br>
+                                This system is very essential for everyeducational institution as it reduces man power.
+                                This system can be used for allkinds of educational institutions toevaluate and analyze
+                                the marks andgenerate reports ofSpecified criteria.
+
+                                <br><a href="#">more.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo"
+                                style="background-color: rgba(164, 9, 9, 0.705); color: white; font-size: 25px; font-weight: 600;"
+                                ;>
+                                Embeded System
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body" style="background-color: rgba(241, 160, 160, 0.359)" ;>
+                                <strong>AMR- Automated Meter Reading</strong> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the, though the
+                                transition does limit overflow. <br><strong>Scope</strong><br>
+                                This system is very essential for everyeducational institution as it reduces man power.
+                                This system can be used for allkinds of educational institutions toevaluate and analyze
+                                the marks andgenerate reports ofSpecified criteria.
+                                <br><a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree"
+                                style="background-color: rgba(9, 164, 58, 0.705); color: white; font-size: 25px; font-weight: 600;"
+                                ;>
+                                HTML Projects
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body" style="background-color: rgba(170, 217, 193, 0.605)" ;>
+                                <strong>Website Creation</strong> It is hidden by default, until the collapse plugin
+                                adds the appropriate classes that we use to style each element. These classes control
+                                the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                                modify any of this with custom CSS or overriding our default variables. It's also worth
+                                noting that just about any HTML can go within the, though the transition does limit
+                                overflow. <br> <strong>Scope</strong><br>
+                                This system is very essential for everyeducational institution as it reduces man power.
+                                This system can be used for allkinds of educational institutions toevaluate and analyze
+                                the marks andgenerate reports ofSpecified criteria.
+                                <br><a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section id="My Works">
+                <h1
+                    style="text-align:center ; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 60px; margin-top: 100px; color: blue;">
+                    My Works</h1><br>
+                <!-- <div class="card" style="width: 25rem;">
+                    <img src="." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div> -->
+
+                <div class="fmain">
+                    <div class="polaroid" style="margin-left:20px ; margin-top: 80px;">
+                        <a href="./Project1_Coffee.html"><img src="./Images/coffeebg.webp" alt="5 Terre" style="width:100%" height="350px"></a>
+                        <div class="container">
+                            <p class="img" >Brew Beans</p>
+                        </div>
+                    </div>
+
+                    <div class="polaroid" style="float:right ; margin-top:-430px; margin-right:15px;">
+                        <a href="./food gallery.html"><img src="./Images/foood.jpg" alt="Norther Lights" style="width:100%" height="350px"></a>
+                        <div class="container">
+                            <p class="img">The Food Gallery</p>
+                        </div>
+                    </div>
+
+                    <div class="polaroid" style="float:right ; margin-top:-430px; margin-right:185px;">
+                        <a href="./Book Gallery.html"><img src="./Images/holmes.jpg" alt="Norther Lights" style="width:100%" height="350px"></a>
+                        <div class="container">
+                            <p class="img"> Online Book Store</p>
+                        </div>
+                    </div>
+                    <div class="polaroid" style=" margin-left:20px " ;>
+                        <a href="./Project2_Sachin.html"><img src="./Images/Sachin.jpg" alt="5 Terre" style="width:100%" height="350px"></a>
+                        <div class="container">
+                            <p class="img">SRT Website</p>
+                        </div>
+                    </div>
+                    <div class="polaroid" style="float:right ; margin-top:-430px; margin-right:15px;">
+                        <a href="./Luminar Site.html"><img src="./Images/luminar pic.jpeg" alt="Norther Lights" style="width:100%" height="350px"></a>
+                        <div class="container">
+                            <p class="img">Luminar Website</p>
+                        </div>
+                    </div>
+                    <div class="polaroid" style="float:right ; margin-top:-430px; margin-right:185px;">
+                        <a href="./Travel vlog.html"><img src="./Images/travelbg.jpg" alt="Norther Lights" style="width:100%" height="350px"></a>
+                        <div class="container">
+                            <p class="img">Bon Voyage</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      
+      
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for additional Informations
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control " placeholder="Enter your mail id" style="margin-left: 350px;">
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+     
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+         
+  
+          <!--Grid column-->
+         
+          <!--Grid column-->
+  
+          <!--Grid column-->
+         
+          <!--Grid column-->
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(10, 10, 10, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+</body>
+
+</html>
